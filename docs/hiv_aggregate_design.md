@@ -28,13 +28,13 @@ This section will present the main sections (tables) of the datasets (reporting 
 
 This section covers the general HIV testing, treatment and viral suppression and it has been configured with data elements using a disaggregation for age (0-14 yrs, 15+yrs) and Sex (Male, Female) with the totals automatically computer in the process of data entry.
 
-![](resources/HIVPKG1.png)
+![](resources/images/HIVPKG1.png)
 
 ### PMTCT Section
 
 This section covers the PMTCT with ANC testing and treatment and it has been configured with data elements that are not disaggregated as the guidelines.
 
-![](resources/HIVPKG2.png)
+![](resources/images/HIVPKG2.png)
 
 #### Data Elements
 
@@ -93,31 +93,31 @@ Dashboard items (charts, maps and pivot table) are aligned to the [WHO Analysis 
 
 This is national and subnational level dashboard that shows HIV burden estimate analysis with all items using the map to present the data.
 
-![](resources/HIVPKG3.png)
+![](resources/images/HIVPKG3.png)
 
 ### HIV National
 
  This is national level dashboard that shows HIV cascade, 2nd and 3rd 90 indicators, ART coverage, HIV testing, treatment and viral suppression analysis using the charts, pivot tables and maps to present the data.
 
-![](resources/HIVPKG41.png)
+![](resources/images/HIVPKG41.png)
 
-![](resources/HIVPKG42.png)
+![](resources/images/HIVPKG42.png)
 
 ### HIV District (SNU2)
 
 This is sub national level dashboard that shows HIV cascade, 2nd and 3rd 90 indicators, ART coverage, HIV testing, treatment and viral suppression analysis using the charts, pivot tables and maps to present the data.
 
-![](resources/HIVPKG51.png)
+![](resources/images/HIVPKG51.png)
 
-![](resources/HIVPKG52.png)
+![](resources/images/HIVPKG52.png)
 
 ### HIV Facility
 
 This is facility level dashboard that shows clinical HIV cascade, 2nd and 3rd 90 indicators, HIV testing, treatment and viral suppression analysis using the charts and pivot tables to present the data.
 
-![](resources/HIVPKG61.png)
+![](resources/images/HIVPKG61.png)
 
-![](resources/HIVPKG62.png)
+![](resources/images/HIVPKG62.png)
 
 ## References
 
