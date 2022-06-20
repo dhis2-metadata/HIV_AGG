@@ -64,25 +64,25 @@ Dashboard items (charts, maps and pivot table) are aligned to the [WHO Analysis 
 
 This is national and subnational level dashboard that shows HIV burden estimate analysis with all items using maps to present the data on HIV estimates (Population, PLPHIV, and HIV).
 
-![HIV Burden](resources/images/HIVPKG003.png)
+![HIV Burden](resources/images/hiv_agg-002-en.png)
 
 ### HIV National
 
  This is national level dashboard that shows HIV cascade, 2nd and 3rd 90 indicators, ART coverage, HIV testing, treatment and viral suppression analysis using the charts, pivot tables and maps to present the data.
 
-![HIV National](resources/images/HIVPKG61.png)
+![HIV National](resources/images/hiv_agg-003-en.png)
 
 ### HIV District (SNU2)
 
 This is sub national level dashboard that shows HIV cascade, 2nd and 3rd 90 indicators, ART coverage, HIV testing, treatment and viral suppression analysis using the charts, pivot tables and maps to present the data.
 
-![HIV District](resources/images/HIVPKG81.png)
+![HIV District](resources/images/hiv_agg-004-en.png)
 
 ### HIV Facility
 
 This is facility level dashboard that shows clinical HIV cascade, 2nd and 3rd 90 indicators, HIV testing, treatment and viral suppression analysis using the charts and pivot tables to present the data.
 
-![HIV Facility](resources/images/HIVPKG101.png)
+![HIV Facility](resources/images/hiv_agg-005-en.png)
 
 ## References
 
