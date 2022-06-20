@@ -36,7 +36,7 @@ This section covers the general HIV testing, treatment and viral suppression and
 
 This section covers the PMTCT with ANC testing and treatment and it has been configured with data elements that are not disaggregated as the guidelines.
 
-![PMTCT](resources/images/HIVPKG2.png)
+![PMTCT](resources/images/HIVPKG2.png){ width=30% }
 
 #### Data Elements
 
