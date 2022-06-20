@@ -1,5 +1,7 @@
 # HIV Digital Data Package Aggregate System Design { #hiv-aggregate-design }
 
+Version: 1.1.0
+
 ## Introduction
 
 This document describes the conceptual system design in DHIS2 for the HIV configuration package for aggregate reporting. The package is designed to facilitate the capture and analysis of a core set of indicators through routine health management information systems (HMIS) as described in the [WHO Analysis and Use of Health Facility Data Guidance for HIV Programme Managers](https://cdn.who.int/media/docs/default-source/documents/ddi/facilityanalysisguide-hiv.pdf) (2019).
