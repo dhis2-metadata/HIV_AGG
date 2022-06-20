@@ -44,13 +44,13 @@ These are the data elements in the used to create the dataSets above and also to
 
 ### Validation Rules
 
-The full list of validation rules is available in the [Reference file](resources/metadata.xslsx).
+The full list of validation rules is available in the [Reference file](resources/metadata.xlsx).
 
 ## Indicators
 
 Indicators are aligned to the core indicator list contained in the [WHO Analysis and Use of Health Facility Data Guidance for HIV Programme Managers](https://www.who.int/healthinfo/FacilityAnalysisGuide_HIV.pdf?ua=1). These indicators facilitate analysis of testing, treatment, viral suppression, and with a component of PMTCT. For TB indicators related to PLHIV, see the [WHO Analysis and Use of Health Facility Data Guidance for TB Programme Managers](https://www.who.int/healthinfo/FacilityAnalysisGuide_TB.pdf?ua=1).
 
-The full list of indicators is available in the [Reference file](resources/metadata.xslsx).
+The full list of indicators is available in the [Reference file](resources/metadata.xlsx).
 
 ## Tracker to Aggregate
 
