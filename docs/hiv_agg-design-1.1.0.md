@@ -1,4 +1,4 @@
-# HIV Digital Data Package Aggregate System Design { #hiv-aggregate-design-110 }
+# HIV Digital Data Package Aggregate System Design
 
 Version: 1.1.0
 
