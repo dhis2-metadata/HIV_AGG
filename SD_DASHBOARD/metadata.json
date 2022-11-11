@@ -5306,7 +5306,7 @@
         "DHIS2Version": "2.36.12",
         "code": "HIV_AGG_SD",
         "description": "HIV Service Delivery (dashboard)",
-        "lastUpdated": "20221107T135311",
+        "lastUpdated": "20221111T111019",
         "locale": "en",
         "name": "HIV_AGG_SD_DSH_DHIS2.36.12-en",
         "type": "DSH",
@@ -5466,7 +5466,7 @@
         },
         {
             "attributeValues": [],
-            "code": "HIV_AGG_STK_CAPTURE",
+            "code": "HIV_AGG_STOCK_CAPTURE",
             "externalAccess": false,
             "favorite": false,
             "id": "bBCqkTrkQiV",
