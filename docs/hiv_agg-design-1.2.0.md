@@ -40,17 +40,17 @@ This section covers the PMTCT with ANC testing and treatment and it has been con
 
 #### Data Elements
 
-These are the data elements in the used to create the dataSets above and also to configure the indicators. They broadly cover; testing, treatment, retention, viral suppression, PMTCT and estimated PLHIV. The full list for data elements is available in the [Reference file](resources/metadata.xslsx) for the HIV aggregate package.
+These are the data elements in the used to create the dataSets above and also to configure the indicators. They broadly cover; testing, treatment, retention, viral suppression, PMTCT and estimated PLHIV. The full list for data elements is available in the Metadata reference file.
 
 ### Validation Rules
 
-The full list of validation rules is available in the [Reference file](resources/metadata.xlsx).
+The full list of validation rules is available in the Metadata reference file.
 
 ## Indicators
 
 Indicators are aligned to the core indicator list contained in the [WHO Analysis and Use of Health Facility Data Guidance for HIV Programme Managers](https://www.who.int/healthinfo/FacilityAnalysisGuide_HIV.pdf?ua=1). These indicators facilitate analysis of testing, treatment, viral suppression, and with a component of PMTCT. For TB indicators related to PLHIV, see the [WHO Analysis and Use of Health Facility Data Guidance for TB Programme Managers](https://www.who.int/healthinfo/FacilityAnalysisGuide_TB.pdf?ua=1).
 
-The full list of indicators is available in the [Reference file](resources/metadata.xlsx).
+The full list of indicators is available in the Metadata reference file.
 
 ## Tracker to Aggregate
 
