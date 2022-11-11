@@ -1,4 +1,4 @@
-# HIV Digital Data Package Aggregate System Design
+# HIV Digital Data Package Aggregate System Design { #hiv-agg-design-110 }
 
 Version: 1.1.0
 
@@ -40,7 +40,7 @@ This section covers the PMTCT with ANC testing and treatment and it has been con
 
 #### Data Elements
 
-These are the data elements in the used to create the dataSets above and also to configure the indicators. They broadly cover; testing, treatment, retention, viral suppression, PMTCT and estimated PLHIV..
+These are the data elements in the used to create the dataSets above and also to configure the indicators. They broadly cover; testing, treatment, retention, viral suppression, PMTCT and estimated PLHIV.
 
 | **name** | **Disaggregation** | **Section** | **DataSet** |
 | --- | --- | --- | --- |
