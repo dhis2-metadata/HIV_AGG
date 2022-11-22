@@ -1,5 +1,9 @@
 # HIV HMIS
 
+## Release Note
+
+- [Release Note](#hiv-agg-release-note)
+
 ## Design
 
 - [Version 1.2.0](#hiv-agg-design-120)
@@ -10,10 +14,6 @@
 ## Installation
 
 - [Installation Guide](#hiv-agg-installation)
-
-## Release Note
-
-- [Release Note](#hiv-agg-release-note)
 
 ## Metadata Reference
 
