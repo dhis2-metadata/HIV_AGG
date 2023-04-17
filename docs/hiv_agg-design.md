@@ -1,4 +1,4 @@
-# HIV HMIS System Design { #hiv-agg-design-120 }
+# HIV HMIS System Design { #hiv-agg-design }
 
 Version 1.2.0
 
