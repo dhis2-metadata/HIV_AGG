@@ -7,7 +7,6 @@
 ## Design
 
 - [Version 1.2.0 ](#hiv-agg-design)
-- [Version 1.1.0](#hiv-agg-design-110)
 - [LMIS](#lmis-agg-design)
 - [HIV Logistics](#hiv-agg-stk-design)
 
