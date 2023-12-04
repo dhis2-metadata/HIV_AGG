@@ -14,6 +14,15 @@ HISP Centre is grateful to the WHO Global HIV Programme and Division of Data, An
 
 ## Design Overview 
 
+### Data Sets
+
+The following datasets describe the frequency and type of data to be integrated into the HMIS for routine programme monitoring & analysis. 
+
+| Name | Periodicity | Purpose |
+| --- | --- | --- |
+| HIV Monthly | Monthly | Reporting of health facility data related to HIV testing, treatment and viral load suppression |
+| HIV annual data | Annual | Captures estimated number of people living with HIV |
+
 ## HIV Prevention 
 
 ### Prevention Dashboards
@@ -57,7 +66,7 @@ Two indicator groups have been configured to group the indicators as follows:
 - HIV prevention - WHO standard list (K6esSqLr8Ta): contains all core and optional WHO SI indicators. 
 - HIV Prevention - Dashboard (MOrMTBtGQAB): contains all indicators that are used in the standard recommended dashboards; these represent a subset of the WHO standard list
 
-## Prevention Datasets
+### Prevention Datasets
 
 As described above, dashboards are populated using the aggregate data model, using DHIS2 indicators. Aggregate datasets, data elements and category combinations have been configured to serve the analytics based on the dimensions of analysis included in the strategic information and data use guidelines. When used in tandem with the DHIS2 Prevention Tracker, values from program indicators are mapped to their corresponding aggregate data element and CatCombo in order to populate the *numerators* and *denominators* for all the indicators included above. These datasets can also be used for aggregated reporting among sites that do not yet have Tracker; or sites that submit routine reports that aggregate data from another individual level data collection tool. 
 
@@ -69,7 +78,7 @@ There are three (3) distinct datasets for capturing prevention data. These have 
 2. HIV prevention (yearly)
 3. HIV prevention (monthly) 
 
-### HIV Prevention - Population estimates
+#### HIV Prevention - Population estimates
 
 This dataset contains four (4) data elements which are *not* derived from routine reporting; and are typically made available by the HIV programme on an annual basis. These data elements are used for populating denominators for core indicators from the strategic information guidelines. The data set should be assigned to the lowest administrative level for which high-quality estimates exist and can be used for analysis. 
 
@@ -85,7 +94,7 @@ These estimates are used for the calculation of the following indicators:
 
 /resources/images/hiv_prevention_pop_estimates.png
 
-### HIV Prevention (yearly)
+#### HIV Prevention (yearly)
 
 This dataset contains data elements required for annual analysis based on data aggregated from HIV prevention service delivery & distribution sites. It includes the following:
 
@@ -104,7 +113,7 @@ This dataset contains data elements required for annual analysis based on data a
 - Clients tested for gonorrhoea and syphilis by age and sex
 - Clients tested for viral hepatitis
 
-### HIV Prevention (monthly)
+#### HIV Prevention (monthly)
 
 This dataset contains data elements for routine monthly analysis based on data aggregated from HIV prevention service delivery & distribution sites. It contains the following: 
 
@@ -116,7 +125,7 @@ This dataset contains data elements for routine monthly analysis based on data a
 - Clients tested for STIs and diagnosed with STIs
 - Clients tested for viral hepatitis
 
-### Prevention Data Elements
+#### Prevention Data Elements
 
 Aggregate domain data elements that are expected to be populated for dashboard analyses are grouped within the Data Element Group **‘HIV prevention (dashboard)’ [LUxGwKWIpME]**. The data element group allows for easy identification of which data elements should be targeted for exchanging Tracker data to aggregate data elements using the Data Exchange App. 
 
@@ -124,15 +133,6 @@ Some of the data elements contained in the datasets above are cloned (as distinc
 
 - HIV - Volume: Clients attending HIV prevention services (monthly)
 - HIV - Volume: Clients attending HIV prevention services (yearly)
-
-## Data Sets
-
-The HIV configuration package for aggregate reporting contains the following datasets for entering input data as summarized below;
-
-| Name | Periodicity | Purpose |
-| --- | --- | --- |
-| HIV Monthly | Monthly | Reporting of health facility data related to HIV testing, treatment and viral load suppression |
-| HIV annual data | Annual | Captures estimated number of people living with HIV |
 
 ## Validation Rules
 
