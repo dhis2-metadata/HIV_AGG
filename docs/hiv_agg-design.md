@@ -47,7 +47,7 @@ The national HIV dashboard provides national programmes and other stakeholders w
 
 ![HIV case diagnoses and geographic distribution](resources/images/02_dash_HIV_cases.png)
 
-![PLHIV linked and currently on ART](resouces/images/02_dash_HIV_treatment.png)
+![PLHIV linked and currently on ART](resources/images/02_dash_HIV_treatment.png)
 
 ![Viral Suppression and Comorbidities](resources/images/02_dash_HIV_viral_suppression.png)
 
@@ -61,7 +61,7 @@ The national HIV dashboard provides national programmes and other stakeholders w
 
 Thematic dashboards for monitoring various aspects of HIV prevention programming have been developed based on the core indicators included in WHO’s 2022 [*Consolidated guidelines on person-centred HIV strategic information*](https://www.who.int/publications/i/item/9789240055315). Standard dashboard visualizations developed with WHO’s guidance can be rendered at national or sub-national levels depending on user configuration. 
 
-Dashboards are served entirely by DHIS2 *indicators as* described in the next section. The following dashboards are available for routine analysis of HIV prevention activities.
+Dashboards are served entirely by DHIS2 *indicators* as described in the next section. The following dashboards are available for routine analysis of HIV prevention activities.
 
 **HIV Prevention - 01. HTS: HIV testing services**
 
