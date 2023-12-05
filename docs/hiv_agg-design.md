@@ -14,14 +14,46 @@ HISP Centre is grateful to the WHO Global HIV Programme and Division of Data, An
 
 ## System Structure
 
+### Architecture
+
+The HMIS module for HIV is designed to support typical national health information system architecture in countries. The architecture recognizes that DHIS2 may not be the primary source for all HIV-related data, but plays a significant role in bringing data together for routine analysis and triangulation with other sources. 
+
+![Illustrative HIV Information System Architecture](resources/images/hiv_architecture_simple.png)
+
+Following this illustrative architecture, the HMIS -- leveraging the robust aggregate data model that is optimized for analysis -- serves as a central repository for routine and other data sources. Individual level data systems for person-centered monitoring are maintained separately from the HMIS for privacy, confidentiality, and optimized performance. These individual level data systems may use DHIS2 Tracker for person-centered monitoring of at-risk populations enrolled in prevention programs, as well as life-long monitoring of individual HIV cases to produce accurate, timely data on strategic information indicators such as linkage of individuals at substanital risk to prevention services, PLHIV currently on treatment, viral load testing coverage, and initiation of TB preventive treatment among PLHIV. 
+
+For more information on designing and using DHIS2 for person-centered monitoring, please see the guides on HIV Prevention and HIV Case Surveillance. 
+
 ### Data Sets
 
-The following datasets describe the frequency and type of data to be integrated into the HMIS for routine programme monitoring & analysis. 
+The following datasets describe the frequency and type of data to be integrated into the HMIS for routine programme monitoring & analysis. Note that while datasets can be used for aggregate paper-based reporting among facilities and sites that have not yet digitized individual-level reporting, these datasets **also** serve as a central repository for bringing anonymized, aggregated data from DHIS2 Tracker, EMRs, and other sources. These datasets and their corresponding data elements provide the analytical dimensions needed for generating indicators and performant dashboards at national scale and for sub-national use. 
 
 | Name | Periodicity | Purpose |
 | --- | --- | --- |
 | HIV Monthly | Monthly | Reporting of health facility data related to HIV testing, treatment and viral load suppression |
 | HIV annual data | Annual | Captures estimated number of people living with HIV |
+
+## HIV Programme Dashboards 
+
+Two overarching programmatic monitoring dashboards are available and optimized for users at the national programme and district levels. These dashboards use indicators and data visualizations from across programmatic interventions, including the 95-95-95 cascade to monitor the number of people living with HIV who know their HIV status, are on treatment, and virally suppressed; incidence and mortality, new case diagnoses, availability of HIV testing services and essential HIV commodities at facilities and treatment sites; and comorbidities with TB, STIs, and other related diseases. These dashboards include aggregated data from person-centered monitoring using DHIS2 Tracker for prevention and case surveillance; but also include programmatic data from other key sources for holistic programme management. 
+
+The dashboards and underlying indicators included in the HMIS module are designed in a way that prioritizes **bringing data together in DHIS2 as an integrated platform for analysis** from across paper-based and digital sources -- regardless of whether DHIS2 Tracker, EMRs or other digital tools are used at the lowest levels. It also brings in semi-routine data such as Health Facility Profile data on availability and readiness for service delivery, as well as non-routine data like Spectrum estimates and population denominators to allow for meaningful analyses. 
+
+### HIV HMIS - National Dashboard
+
+The national HIV dashboard provides national programmes and other stakeholders with timely key metrics for monitoring the HIV epidemic in their country as well as progress of key HIV interventions. It is optimized to assist in strategy and policy decisions, intervention planning, resource allocation and monitoring key performance indicators. 
+
+![HIV 95-95-95 Targets](resources/images/02_dash_HIV_cascade.png)
+
+![HIV case diagnoses and geographic distribution](resources/images/02_dash_HIV_cases.png)
+
+![PLHIV linked and currently on ART](resouces/images/02_dash_HIV_treatment.png)
+
+![Viral Suppression and Comorbidities](resources/images/02_dash_HIV_viral_suppression.png)
+
+![Key performance indicators by sub-national level](resources/images/02_dash_HIV__KPIs.png)
+
+### HIV HMIS - District Dashboard 
 
 ## HIV Prevention Dashboards & Datasets
 
