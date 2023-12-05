@@ -12,7 +12,7 @@ Dashboards are designed to support national, district and facility levels to con
 
 HISP Centre is grateful to the WHO Global HIV Programme and Division of Data, Analytics, and Delivery for Impact (DDI) for their ongoing partnership through a Collaborating Centre agreement. Subject matter expertise from the HIV programme and other focal points was crucial for the development and optimization of this product. We are also grateful to the Global Fund for their financial support to develop the HIV product suite for DHIS2. 
 
-## Design Overview 
+## System Structure
 
 ### Data Sets
 
@@ -23,7 +23,7 @@ The following datasets describe the frequency and type of data to be integrated 
 | HIV Monthly | Monthly | Reporting of health facility data related to HIV testing, treatment and viral load suppression |
 | HIV annual data | Annual | Captures estimated number of people living with HIV |
 
-## HIV Prevention 
+## HIV Prevention Dashboards & Datasets
 
 ### Prevention Dashboards
 
