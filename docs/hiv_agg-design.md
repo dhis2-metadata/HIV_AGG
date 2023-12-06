@@ -1,90 +1,98 @@
 # HIV HMIS System Design { #hiv-agg-design }
 
-Version 1.2.0
+Version 2.0.0
 
 ## Introduction
 
-This document describes the conceptual system design in DHIS2 for the HIV configuration package for aggregate reporting. The package is designed to facilitate the capture and analysis of a core set of indicators through routine health management information systems (HMIS) as described in the [WHO Analysis and Use of Health Facility Data Guidance for HIV Programme Managers](https://cdn.who.int/media/docs/default-source/documents/ddi/facilityanalysisguide-hiv.pdf) (2019).
+This document describes the conceptual system design in DHIS2 for integrating routine HIV programme and case data into a national HMIS for analysis and use. The system design and metadata support all core and optional indicators from routine data sources in the WHO's [Consolidated guidelines on person-centred HIV strategic information: strengthening routine data for impact (2022)](https://www.who.int/publications/i/item/9789240055315), including HIV case surveillance, testing & treatment indicators (n=57) and HIV prevention indicators (n=43).
 
-The HIV package includes two main components:
+Dashboards are designed to support national, district and facility levels to conduct routine analysis on a core set of indicators as described in the [WHO Analysis and Use of Health Facility Data Guidance for HIV Programme Managers](https://cdn.who.int/media/docs/default-source/documents/ddi/facilityanalysisguide-hiv.pdf) (2019).
 
-1. Aggregate data reporting component (data set, data elements, category combinations for required disaggregation, etc).
-2. Dashboard component: focusing on how the data collection part of the configuration has been designed in DHIS2 (i.e. data sets and data elements).
+### Acknowledgements
 
-This document is intended for use by DHIS2 implementers at country and regional level to be able to support implementation and localization of the configuration package while adhering to the design principles set forth.
+HISP Centre is grateful to the WHO Global HIV Programme and Division of Data, Analytics, and Delivery for Impact (DDI) for their ongoing partnership through a Collaborating Centre agreement. Subject matter expertise from the HIV programme and other focal points was crucial for the development and optimization of this product. We are also grateful to the Global Fund for their financial support to develop the HIV product suite for DHIS2. 
 
-## Data Sets
+## System Structure
 
-The HIV configuration package for aggregate reporting contains the following datasets for entering input data as summarized below;
+### Architecture
+
+The HMIS module for HIV is designed to support typical national health information system architecture in countries. The architecture recognizes that DHIS2 may not be the primary source for all HIV-related data, but plays a significant role in bringing data together for routine analysis and triangulation with other sources. 
+
+![Illustrative HIV Information System Architecture](resources/images/hiv_architecture_simple.png)
+
+Following this illustrative architecture, the HMIS -- leveraging the robust aggregate data model that is optimized for analysis -- serves as a central repository for routine and other data sources. Individual level data systems for person-centered monitoring are maintained separately from the HMIS for privacy, confidentiality, and optimized performance. These individual level data systems may use DHIS2 Tracker for person-centered monitoring of at-risk populations enrolled in prevention programs, as well as life-long monitoring of individual HIV cases to produce accurate, timely data on strategic information indicators such as linkage of individuals at substanital risk to prevention services, PLHIV currently on treatment, viral load testing coverage, and initiation of TB preventive treatment among PLHIV. 
+
+For more information on designing and using DHIS2 for person-centered monitoring, please see the guides on HIV Prevention and HIV Case Surveillance. 
+
+### Data Sets
+
+The following datasets describe the frequency and type of data to be integrated into the HMIS for routine programme monitoring & analysis. Note that while datasets can be used for aggregate paper-based reporting among facilities and sites that have not yet digitized individual-level reporting, these datasets **also** serve as a central repository for bringing anonymized, aggregated data from DHIS2 Tracker, EMRs, and other sources. These datasets and their corresponding data elements provide the analytical dimensions needed for generating indicators and performant dashboards at national scale and for sub-national use. 
 
 | Name | Periodicity | Purpose |
 | --- | --- | --- |
-| HIV Monthly | Monthly | Reporting of health facility data related to HIV testing, treatment and viral load suppression |
-| HIV annual data | Annual | Captures estimated number of people living with HIV |
+| HIV surveillance (monthly) | Monthly | HIV case data required for routine monthly analysis. This data set can receive Tracker data from a case-based system or can be used for aggregated paper-based reporting from prevention sites (with adaptation/simplification of disaggregation). |
+| HIV surveillance (yearly) | Annual | HIV case data required for annual analysis of data reported from Tracker or other case-based surveillance systems. A separate annual dataset is provided to avoid double-counting that can occur when aggregating monthly reported data. |
+| HIV prevention (monthly) | Monthly | HIV prevention data required for routine monthly analysis. This data set can receive Tracker data from an individual level system or can be used for aggregated paper-based reporting from prevention sites (with adaptation/simplification of disaggregation). |
+| HIV prevention (annual) | Annual | HIV prevention data required for annual analysis of data reported from Tracker or other case-based surveillance systems. A separate annual dataset is provided to avoid double-counting that can occur when aggregating monthly reported data. |
+| HIV stock report | Monthly | Facility stock data for essential commodities that can be reported directly from facilities (stock-on-hand, stock distributed, stock received, etc). |
+| HIV Health Facility Profile | Annual | Dataset for incorporating data from the Health Facility Profile on availability of HIV testing services and ART treatment. |
+| HIV surveillance population estimates | Annual | Dataset for recording estimates of PLHIV (such as Spectrum estimates), uninfected HIV population and HIV-positive women who delivered babies for use in denominators for key HIV indicators. |
+| HIV prevention population estimates | Annual | Dataset for recording estimates of people eligible for PrEP, opioid dependents, people who inject drugs and uninfected population for use in denominators of key HIV indicators. |
 
-## Data Set Sections
+## HIV Programme Dashboards 
 
-This section will present the main sections (tables) of the datasets (reporting forms), explaining their configuration.
+Two overarching programmatic monitoring dashboards are available and optimized for users at the national programme and district levels. These dashboards use indicators and data visualizations from across programmatic interventions, including the 95-95-95 cascade to monitor the number of people living with HIV who know their HIV status, are on treatment, and virally suppressed; incidence and mortality, new case diagnoses, availability of HIV testing services and essential HIV commodities at facilities and treatment sites; and comorbidities with TB, STIs, and other related diseases. These dashboards include aggregated data from person-centered monitoring using DHIS2 Tracker for prevention and case surveillance; but also include programmatic data from other key sources for holistic programme management. 
 
-### HIV Section
+The dashboards and underlying indicators included in the HMIS module are designed in a way that prioritizes **bringing data together in DHIS2 as an integrated platform for analysis** from across paper-based and digital sources -- regardless of whether DHIS2 Tracker, EMRs or other digital tools are used at the lowest levels. It also brings in semi-routine data such as Health Facility Profile data on availability and readiness for service delivery, as well as non-routine data like Spectrum estimates and population denominators to allow for meaningful analyses. 
 
-This section covers the general HIV testing, treatment and viral suppression and it has been configured with data elements using a disaggregation for age (0-14 yrs, 15+yrs) and Sex (Male, Female) with the totals automatically computer in the process of data entry.
+### HIV HMIS - National Dashboard
 
-![HIV Dataset](resources/images/hiv_agg-001-en.png)
+The national HIV dashboard provides national programmes and other stakeholders with timely key metrics for monitoring the HIV epidemic in their country as well as progress of key HIV interventions. It is optimized to assist in strategy and policy decisions, intervention planning, resource allocation and monitoring key performance indicators. 
 
-### PMTCT Section
+![HIV 95-95-95 Targets](resources/images/02_dash_HIV_cascade.png)
 
-This section covers the PMTCT with ANC testing and treatment and it has been configured with data elements that are not disaggregated as the guidelines.
+![HIV case diagnoses and geographic distribution](resources/images/02_dash_HIV_cases.png)
 
-![PMTCT](resources/images/HIVPKG2.png){ width=30% }
+![PLHIV linked and currently on ART](resources/images/02_dash_HIV_treatment.png)
 
-#### Data Elements
+![Viral Suppression and Comorbidities](resources/images/02_dash_HIV_viral_suppression.png)
 
-These are the data elements in the used to create the dataSets above and also to configure the indicators. They broadly cover; testing, treatment, retention, viral suppression, PMTCT and estimated PLHIV. The full list for data elements is available in the Metadata reference file.
+![Key performance indicators by sub-national level](resources/images/02_dash_HIV__KPIs.png)
 
-### Validation Rules
+### HIV HMIS - District Dashboard 
+
+The district HIV dashboard provides sub-national programme managers and district health officers with tailored data visualizations to monitor HIV programme performance and take sub-national actions. Many data visualizations are designed to enable sub-national users to compare metrics across health facilities to target supportive supervision, adjust resource allocation for testing/treatment services and optimize operations. The dashboards borrows from the same set of indicators as national dashboards, and sometimes includes more focus on numerators where coverage estimates are unlikely to be available at sub-national levels. 
+
+**Facility availability of HIV testing services**
+
+![Availability of HIV services](resources/images/hiv_hmis_dash_0101.png)
+
+**Facility stock-outs of HIV tests & ARTs**
+
+![Facility stock](resources/images/hiv_hmis_dash_0102.png)
+
+**New HIV diagnoses, linkage to treatment and PLHIV currently on treatment by facility**
+
+![Facility diagnoses and treament](resources/images/hiv_hmis_dash_0103.png)
+
+**HIV-TB comorbidity and initiation of TB preventive treatment**
+
+![HIV TB comorbidity and prevention](resources/images/hiv_hmis_dash_0104.png)
+
+**Viral suppression at labor, PLHIV screened for cervical cancer and STI testing coverage among PLHIV**
+
+![Viral suppression, cervical cancer screening and STI testing](resources/images/hiv_hmis_dash_0105.png)
+
+**Facility key performance indicators**
+
+![Facility KPIs](resources/images/hiv_hmis_dash_0106.png)
+
+## Validation Rules
 
 The full list of validation rules is available in the Metadata reference file.
-
-## Indicators
-
-Indicators are aligned to the core indicator list contained in the [WHO Analysis and Use of Health Facility Data Guidance for HIV Programme Managers](https://www.who.int/healthinfo/FacilityAnalysisGuide_HIV.pdf?ua=1). These indicators facilitate analysis of testing, treatment, viral suppression, and with a component of PMTCT. For TB indicators related to PLHIV, see the [WHO Analysis and Use of Health Facility Data Guidance for TB Programme Managers](https://www.who.int/healthinfo/FacilityAnalysisGuide_TB.pdf?ua=1).
-
-The full list of indicators is available in the Metadata reference file.
-
-## Tracker to Aggregate
-
-Transferring aggregated tracker domain data to aggregate domain data values - In addition to the metadata provided above, implementations will require a mechanism to push the program indicator values from the tracker domain to the target aggregate data set. More information about this can be found in this chapter of the [DHIS2 Implementation Guide: Integrating Tracker and Aggregate Data](https://docs.dhis2.org/en/implement/maintenance-and-use/tracker-and-aggregate-data-integration.html#how-to-saving-aggregated-tracker-data-as-aggregate-data-values)
-
-## Dashboard
-
-Dashboard items (charts, maps and pivot table) are aligned to the [WHO Analysis and Use of Health Facility Data Guidance for HIV Programme Managers](https://cdn.who.int/media/docs/default-source/documents/ddi/facilityanalysisguide-hiv.pdf) and designed for national, subnational (district) and facility level analysis.
-
-### HIV Burden
-
-This is national and subnational level dashboard that shows HIV burden estimate analysis with all items using maps to present the data on HIV estimates (Population, PLPHIV, and HIV).
-
-![HIV Burden](resources/images/hiv_agg-002-en.png)
-
-### HIV National
-
- This is national level dashboard that shows HIV cascade, 2nd and 3rd 90 indicators, ART coverage, HIV testing, treatment and viral suppression analysis using the charts, pivot tables and maps to present the data.
-
-![HIV National](resources/images/hiv_agg-003-en.png)
-
-### HIV District (SNU2)
-
-This is sub national level dashboard that shows HIV cascade, 2nd and 3rd 90 indicators, ART coverage, HIV testing, treatment and viral suppression analysis using the charts, pivot tables and maps to present the data.
-
-![HIV District](resources/images/hiv_agg-004-en.png)
-
-### HIV Facility
-
-This is facility level dashboard that shows clinical HIV cascade, 2nd and 3rd 90 indicators, HIV testing, treatment and viral suppression analysis using the charts and pivot tables to present the data.
-
-![HIV Facility](resources/images/hiv_agg-005-en.png)
 
 ## References
 
 1. [WHO Analysis and Use of Health Facility Data Guidance for HIV Programme Managers](https://cdn.who.int/media/docs/default-source/documents/ddi/facilityanalysisguide-hiv.pdf)  (March 2019)
-2. WHO toolkit for analysis and use of health facility data, accessed at: [https://www.who.int/healthinfo/tools\_data\_analysis\_routine\_facility/en/](https://www.who.int/healthinfo/tools_data_analysis_routine_facility/en/)
+2. WHO toolkit for analysis and use of health facility data, accessed at: [who.int/data/data-collection-tools/health-service-data/toolkit-for-routine-health-information-system-data/modules](https://www.who.int/data/data-collection-tools/health-service-data/toolkit-for-routine-health-information-system-data/modules)
+3. WHO (2022). Consolidated Guidelines on person-centred HIV strategic information: strengthening routine data for impact (2022), accessed at: [who.int/publications/i/item/9789240055315](https://www.who.int/publications/i/item/9789240055315)
