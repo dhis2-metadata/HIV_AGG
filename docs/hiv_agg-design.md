@@ -1,7 +1,5 @@
 # HIV HMIS System Design { #hiv-agg-design }
 
-Version 2.0.0
-
 ## Introduction
 
 This document describes the conceptual system design in DHIS2 for integrating routine HIV programme and case data into a national HMIS for analysis and use. The system design and metadata support all core and optional indicators from routine data sources in the WHO's [Consolidated guidelines on person-centred HIV strategic information: strengthening routine data for impact (2022)](https://www.who.int/publications/i/item/9789240055315), including HIV case surveillance, testing & treatment indicators (n=57) and HIV prevention indicators (n=43).
@@ -87,9 +85,13 @@ The district HIV dashboard provides sub-national programme managers and district
 
 ![Facility KPIs](resources/images/hiv_hmis_dash_0106.png)
 
-## Validation Rules
+## User Groups
 
-The full list of validation rules is available in the Metadata reference file.
+|        User group       |      Metadata     |         Data         |
+|:-----------------------:|:-----------------:|:--------------------:|
+| HIV - Admin        | Can edit and view | No Access            |
+| HIV - Access       | Can view only     | Can view only        |
+| HIV - Data capture | Can view only     | Can capture and view |
 
 ## References
 
