@@ -6,7 +6,7 @@
 
 ## Design
 
-- [Version 1.2.0](#hiv-agg-design)
+- [Version 2.0.0](#hiv-agg-design)
 - [LMIS](#lmis-agg-design)
 - [HIV Logistics](#hiv-agg-stk-design)
 
@@ -16,5 +16,7 @@
 
 ## Metadata Reference
 
-- [Version 1.2.0](https://packages.dhis2.org/en/HIV_AGG/1.2.0/DHIS2.36/HIV_AGG_COMPLETE_1.2.0_DHIS2.36.xlsx)
+- [Version 2.0.0](https://packages.dhis2.org/en/HIV_AGG/2.0.0/DHIS2.39/HIV_AGG_COMPLETE_2.0.0_DHIS2.39.xlsx)
 - [Version 1.2.1](https://packages.dhis2.org/en/HIV_AGG/1.2.1/DHIS2.39/HIV_AGG_COMPLETE_1.2.1_DHIS2.39.xlsx)
+- [Version 1.2.0](https://packages.dhis2.org/en/HIV_AGG/1.2.0/DHIS2.36/HIV_AGG_COMPLETE_1.2.0_DHIS2.36.xlsx)
+
