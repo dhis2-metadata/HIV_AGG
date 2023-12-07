@@ -147,7 +147,7 @@ These estimates are used for the calculation of the following indicators:
 - HIV CS - INC.1 HIV incidence (/1000 uninfected population) (CS)
 - HIV CS - MOR.1 AIDS-related mortality (/100000 population)
 
-![Population Estimation](/resources/images/hiv_case_surveillance_pop_estimates.png)
+![Population Estimation](resources/images/hiv_case_surveillance_pop_estimates.png)
 
 ### HIV case surveillance (yearly)
 
