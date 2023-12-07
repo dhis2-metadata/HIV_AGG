@@ -143,7 +143,7 @@ These estimates are used for the calculation of the following indicators:
 - HIV - PRV.12 Total person–years on OAMT (Population level)
 - HIV - INC.1 HIV incidence (/10000 uninfected)
 
-![HIV prevention estimates](/resources/images/hiv_prevention_pop_estimates.png)
+![HIV prevention estimates](resources/images/hiv_prevention_pop_estimates.png)
 
 ### HIV Prevention (yearly)
 
