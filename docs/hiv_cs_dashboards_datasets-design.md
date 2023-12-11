@@ -116,7 +116,7 @@ Cervical cancer screening coverage, outputs and treatment
 
 The toolkit contains DHIS2 indicators which represent the core and optional indicators listed in the WHO’s 2022 [Consolidated guidelines on person-centred HIV strategic information](https://www.who.int/publications/i/item/9789240055315). 
 
-All HIV Case Surveillance dashboards are served by DHIS2 indicators, which often combine numerators and denominators from individual-level data or other sources. The DHIS2 indicators are mapped and aligned to the indicator definitions and descriptions contained in the WHO’s Digital Adaptation Kit (DAK) for HIV, second edition.
+All HIV Case Surveillance dashboards are served by DHIS2 indicators, which often combine numerators and denominators from individual-level data or other sources. The DHIS2 indicators are mapped and aligned to the indicator definitions and descriptions contained in the [WHO’s Digital Adaptation Kit (DAK) for HIV, second edition](resources/files/WHO_standard_indicators_cs.xlsx).
 
 Two indicator groups have been configured to group the indicators as follows: 
 - HIV Case Surveillance - WHO standard list (hQi48w5BAPp): contains all core WHO SI indicators.
@@ -128,7 +128,8 @@ As described above, dashboards are populated using the aggregate data model, usi
 
 Detailed description of the configuration of program indicators for aggregating tracker data is described in the section Program Indicators. Mapping and exchange of Tracker data to Aggregate data model is described in the section Metadata Mapping & Data Exchange. 
 
-There are three (3) distinct datasets for capturing HIV case surveillance data. These have been designed based on the analytical needs represented in the WHO’s analysis framework, whereby some metrics may be analyzed on a monthly basis while others are only reported and analyzed annually. 
+There are three (3) distinct datasets for capturing HIV case surveillance data. These have been designed based on the analytical needs represented in the WHO’s analysis framework, whereby some metrics may be analyzed on a monthly basis while others are only reported and analyzed annually:
+
 - HIV Case surveillance - Population estimates (annual)
 - HIV case surveillance (yearly)
 - HIV case surveillance (monthly)
@@ -139,6 +140,7 @@ HIV Case surveillance - Population estimates
 This dataset contains three (3) data elements which are not derived from routine reporting; and are typically made available by the HIV programme on an annual basis. These data elements are used for populating denominators for core indicators from the strategic information guidelines. The data set should be assigned to the lowest administrative level for which high-quality estimates exist and can be used for analysis. 
 
 These estimates are used for the calculation of the following indicators: 
+
 - HIV CS - ART.1 People living with HIV on ART (Population level) (%)
 - HIV CS - VER.2  Early infant diagnosis (EID) coverage (2 months) (%)
 - HIV CS - VER.2  Early infant diagnosis (EID) coverage (12months) (%)
@@ -152,6 +154,7 @@ These estimates are used for the calculation of the following indicators:
 ### HIV case surveillance (yearly)
 
 This dataset contains data elements required for annual analysis based on data aggregated from HIV case surveillance service delivery & distribution sites. It includes the following:
+
 - Clients attending HIV case and treatment services by key population category, age and gender
 - PLHIV with a multi-monthly drug administration
 - PLHIV enrolled and eligible for DSD ART models by age and gender
@@ -173,6 +176,7 @@ This dataset contains data elements required for annual analysis based on data a
 ### HIV case surveillance (monthly)
 
 This dataset contains data elements for routine monthly analysis based on data aggregated from HIV care and treatment service delivery & distribution sites. It contains the following: 
+
 - New HIV cases by key population category 
 - ART initiation 
 - PLHIV CD4 counting at ART initiation
