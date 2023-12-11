@@ -8,7 +8,8 @@ This is a major new release of the HIV metadata and system design for integratin
 
 New content for the HIV HMIS module is based on the latest WHO [Consolidated guidelines on person-centred HIV strategic information: strengthening routine data for impact](https://www.who.int/publications/i/item/9789240055315) (2022) and all indicators are compliant with the HIV Digital Adaptation Kit, second version. 
 
-Components included as part of this package: 
+Components included as part of this package:
+
 - New HIV programme dashboards for national, district and facility levels, with corresponding indicators aligned to the SI guidelines and aggregate datasets for integrating program data across individual-level, Spectrum estimates, facilty stock reports, health facility profiles and other sources
 - New HIV prevention dashboards, indicators and datasets
 - Updated HIV case surveillance dashboards, indicators and datasets
