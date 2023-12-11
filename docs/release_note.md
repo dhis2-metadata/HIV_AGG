@@ -13,6 +13,8 @@ Components included as part of this package:
 - New HIV prevention dashboards, indicators and datasets
 - Updated HIV case surveillance dashboards, indicators and datasets
 - Minor fixes to HIV facility stock reporting & dashboard
+
+Here you can find a file in which all the differences between the two versions have been highlighted
   
 ## 1.2.1
 
