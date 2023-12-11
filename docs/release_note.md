@@ -15,7 +15,7 @@ Components included as part of this package:
 - Updated HIV case surveillance dashboards, indicators and datasets
 - Minor fixes to HIV facility stock reporting & dashboard
 
-Here you can find a file in which all the differences between the two versions have been highlighted
+All the changes are highlighted on the [Diff file](resources/files/HIV_AGG_DIFF_1.2.1_2.0.0.xlsx)
   
 ## 1.2.1
 
