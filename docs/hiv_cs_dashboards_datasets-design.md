@@ -116,7 +116,7 @@ Cervical cancer screening coverage, outputs and treatment
 
 The toolkit contains DHIS2 indicators which represent the core and optional indicators listed in the WHO’s 2022 [Consolidated guidelines on person-centred HIV strategic information](https://www.who.int/publications/i/item/9789240055315). 
 
-All HIV Case Surveillance dashboards are served by DHIS2 indicators, which often combine numerators and denominators from individual-level data or other sources. The DHIS2 indicators are mapped and aligned to the indicator definitions and descriptions contained in the WHO’s Digital Adaptation Kit (DAK) for HIV, second edition.
+All HIV Case Surveillance dashboards are served by DHIS2 indicators, which often combine numerators and denominators from individual-level data or other sources. The DHIS2 indicators are mapped and aligned to the indicator definitions and descriptions contained in the [WHO’s Digital Adaptation Kit (DAK) for HIV, second edition](resources/files/WHO_standard_indicators_cs.xlsx).
 
 Two indicator groups have been configured to group the indicators as follows: 
 - HIV Case Surveillance - WHO standard list (hQi48w5BAPp): contains all core WHO SI indicators.
