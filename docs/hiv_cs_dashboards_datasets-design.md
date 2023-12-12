@@ -137,7 +137,7 @@ There are three (3) distinct datasets for capturing HIV case surveillance data. 
 ### HIV Case surveillance - Population estimates
 
 HIV Case surveillance - Population estimates
-This dataset contains three (3) data elements which are not derived from routine reporting; and are typically made available by the HIV programme on an annual basis. These data elements are used for populating denominators for core indicators from the strategic information guidelines. The data set should be assigned to the lowest administrative level for which high-quality estimates exist and can be used for analysis. 
+This dataset contains three (3) data elements which are not derived from routine reporting but are typically modeled estimates; and are typically made available by the HIV programme on an annual basis. These data elements are used for populating denominators for core indicators from the strategic information guidelines. The data set should be assigned to the lowest administrative level for which high-quality estimates exist and can be used for analysis. 
 
 These estimates are used for the calculation of the following indicators: 
 
@@ -177,7 +177,7 @@ This dataset contains data elements required for annual analysis based on data a
 
 This dataset contains data elements for routine monthly analysis based on data aggregated from HIV care and treatment service delivery & distribution sites. It contains the following: 
 
-- New HIV cases by key population category 
+- New HIV cases by age, gender and key population category 
 - ART initiation 
 - PLHIV CD4 counting at ART initiation
 - PLHIV currently on ART
