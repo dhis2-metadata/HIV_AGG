@@ -12850,10 +12850,10 @@
                     "id": "W6CWwS5ijdY"
                 },
                 {
-                    "id": "l00hDBTwR9j"
+                    "id": "Ch3l5bntto7"
                 },
                 {
-                    "id": "Ch3l5bntto7"
+                    "id": "l00hDBTwR9j"
                 },
                 {
                     "id": "pl1LkBE85j3"
@@ -12946,6 +12946,9 @@
                     "id": "aPeYU8XGNYU"
                 },
                 {
+                    "id": "TecHdSTmg1B"
+                },
+                {
                     "id": "IKxZRBGXWUD"
                 },
                 {
@@ -13036,13 +13039,13 @@
                     "id": "lNdSKskIXKF"
                 },
                 {
+                    "id": "fQmtqJHehZY"
+                },
+                {
                     "id": "PoMm4tr5nm2"
                 },
                 {
                     "id": "apFSgxzVOa3"
-                },
-                {
-                    "id": "fQmtqJHehZY"
                 },
                 {
                     "id": "rWz2wIW86dM"
@@ -13067,9 +13070,6 @@
                 },
                 {
                     "id": "mG2M3DBq0Pq"
-                },
-                {
-                    "id": "TecHdSTmg1B"
                 },
                 {
                     "id": "OUsCfUQVCsO"
@@ -13111,6 +13111,9 @@
                     "id": "rHC58mQeczR"
                 },
                 {
+                    "id": "wh5KJJPZ2w7"
+                },
+                {
                     "id": "QXE6ZKpgKuU"
                 },
                 {
@@ -13118,9 +13121,6 @@
                 },
                 {
                     "id": "L1KKJWeY6wT"
-                },
-                {
-                    "id": "pUsmbaGXKOO"
                 },
                 {
                     "id": "TOdXePtqgmq"
@@ -13145,9 +13145,6 @@
                 },
                 {
                     "id": "kUvgjnOiNkO"
-                },
-                {
-                    "id": "oZxMaRJH0S7"
                 },
                 {
                     "id": "EIOWh73ZKN5"
@@ -13184,6 +13181,9 @@
                 },
                 {
                     "id": "Bhk5NkFKSFa"
+                },
+                {
+                    "id": "FI1sLa1hDb1"
                 },
                 {
                     "id": "I1pydYbcF4w"
@@ -14120,6 +14120,43 @@
         {
             "annualized": false,
             "attributeValues": [],
+            "code": "HIV_TB_TPT_REGIMEN_SIX_MONTHS_LEVOFLOXACIN",
+            "denominator": -1,
+            "denominatorDescription": "1",
+            "id": "TecHdSTmg1B",
+            "indicatorType": {
+                "id": "kHy61PbChXr"
+            },
+            "legendSets": [],
+            "name": "[CONFIG] HIV - HIV/TB: TB preventive treatment regimen: Six months of levofloxacin daily ",
+            "numerator": -1,
+            "numeratorDescription": "TPT regimen: Combination INH-B6-Cotrim",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "ISvRhzmu8Ck": {
+                        "access": "r-------",
+                        "id": "ISvRhzmu8Ck"
+                    },
+                    "OqrNUeHDEQZ": {
+                        "access": "r-------",
+                        "id": "OqrNUeHDEQZ"
+                    },
+                    "TAVOXarP781": {
+                        "access": "rw------",
+                        "id": "TAVOXarP781"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "TPT regimen: Six months of levofloxacin daily ",
+            "translations": []
+        },
+        {
+            "annualized": false,
+            "attributeValues": [],
             "code": "HIV_KPOP_MSM_AGG",
             "denominator": -1,
             "denominatorDescription": "1",
@@ -14263,47 +14300,6 @@
                 "users": {}
             },
             "shortName": "Key population: Trans and gender diverse people",
-            "translations": []
-        },
-        {
-            "annualized": false,
-            "attributeValues": [],
-            "code": "HIV_HTS4_LINKAGE_ART_PROP",
-            "denominator": -1,
-            "denominatorDescription": "HIV - New HIV cases diagnosed",
-            "id": "kuxy66IEU61",
-            "indicatorType": {
-                "id": "hmSnCXmLYwt"
-            },
-            "legendSets": [
-                {
-                    "id": "aviopx5x4wQ"
-                }
-            ],
-            "name": "[CONFIG] HIV - Linkage to ART amongst those newly diagnosed with HIV (%)",
-            "numerator": -1,
-            "numeratorDescription": "HIV - Newly HIV + clients on ART",
-            "sharing": {
-                "external": false,
-                "owner": "vUeLeQMSwhN",
-                "public": "r-------",
-                "userGroups": {
-                    "ISvRhzmu8Ck": {
-                        "access": "r-------",
-                        "id": "ISvRhzmu8Ck"
-                    },
-                    "OqrNUeHDEQZ": {
-                        "access": "r-------",
-                        "id": "OqrNUeHDEQZ"
-                    },
-                    "TAVOXarP781": {
-                        "access": "rw------",
-                        "id": "TAVOXarP781"
-                    }
-                },
-                "users": {}
-            },
-            "shortName": "Linkage to ART",
             "translations": []
         },
         {
@@ -16795,15 +16791,11 @@
             "code": "HIV_HIVTEST_STOCKOUT_DAYS",
             "denominator": -1,
             "denominatorDescription": "1",
-            "id": "oZxMaRJH0S7",
+            "id": "wh5KJJPZ2w7",
             "indicatorType": {
                 "id": "kHy61PbChXr"
             },
-            "legendSets": [
-                {
-                    "id": "a2Nb6rhviww"
-                }
-            ],
+            "legendSets": [],
             "name": "[CONFIG] HIV - HIV test kits stock out days",
             "numerator": -1,
             "numeratorDescription": "HIV - HIV test kits stock out days",
@@ -16836,15 +16828,11 @@
             "code": "HIV_HIVTX_STOCKOUT_DAYS",
             "denominator": -1,
             "denominatorDescription": "1",
-            "id": "pUsmbaGXKOO",
+            "id": "FI1sLa1hDb1",
             "indicatorType": {
                 "id": "kHy61PbChXr"
             },
-            "legendSets": [
-                {
-                    "id": "a2Nb6rhviww"
-                }
-            ],
+            "legendSets": [],
             "name": "[CONFIG] HIV - HIV treatment courses stock out days",
             "numerator": -1,
             "numeratorDescription": "HIV - HIV treatment courses stock out days",
@@ -16943,43 +16931,6 @@
                 "users": {}
             },
             "shortName": "TPT regimen: 3HP",
-            "translations": []
-        },
-        {
-            "annualized": false,
-            "attributeValues": [],
-            "code": "HIV_TB_TPT_REGIMEN_COMBINATION_INH-B6-COTRIM",
-            "denominator": -1,
-            "denominatorDescription": "1",
-            "id": "TecHdSTmg1B",
-            "indicatorType": {
-                "id": "kHy61PbChXr"
-            },
-            "legendSets": [],
-            "name": "[CONFIG] HIV - HIV/TB: TB preventive treatment regimen: Combination INH-B6-Cotrim (for the duration of INH specified) ",
-            "numerator": -1,
-            "numeratorDescription": "TPT regimen: Combination INH-B6-Cotrim",
-            "sharing": {
-                "external": false,
-                "owner": "vUeLeQMSwhN",
-                "public": "r-------",
-                "userGroups": {
-                    "ISvRhzmu8Ck": {
-                        "access": "r-------",
-                        "id": "ISvRhzmu8Ck"
-                    },
-                    "OqrNUeHDEQZ": {
-                        "access": "r-------",
-                        "id": "OqrNUeHDEQZ"
-                    },
-                    "TAVOXarP781": {
-                        "access": "rw------",
-                        "id": "TAVOXarP781"
-                    }
-                },
-                "users": {}
-            },
-            "shortName": "TPT regimen: Combination INH-B6-Cotrim",
             "translations": []
         },
         {
@@ -17165,6 +17116,47 @@
                 "users": {}
             },
             "shortName": "Late ART initiation (%)",
+            "translations": []
+        },
+        {
+            "annualized": false,
+            "attributeValues": [],
+            "code": "HIV_HTS4_LINKAGE_ART_PROP",
+            "denominator": -1,
+            "denominatorDescription": "HIV - New HIV cases diagnosed",
+            "id": "kuxy66IEU61",
+            "indicatorType": {
+                "id": "hmSnCXmLYwt"
+            },
+            "legendSets": [
+                {
+                    "id": "aviopx5x4wQ"
+                }
+            ],
+            "name": "[CONFIG] HIV - Linkage to ART amongst those newly diagnosed with HIV (%)",
+            "numerator": -1,
+            "numeratorDescription": "HIV - Newly HIV + clients on ART",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "ISvRhzmu8Ck": {
+                        "access": "r-------",
+                        "id": "ISvRhzmu8Ck"
+                    },
+                    "OqrNUeHDEQZ": {
+                        "access": "r-------",
+                        "id": "OqrNUeHDEQZ"
+                    },
+                    "TAVOXarP781": {
+                        "access": "rw------",
+                        "id": "TAVOXarP781"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Linkage to ART",
             "translations": []
         },
         {
@@ -29844,7 +29836,7 @@
         "description": "HIV HMIS (dashboard)",
         "healthAreaCode": "HIV",
         "healthAreaName": "HIV",
-        "lastUpdated": "20231207T130128",
+        "lastUpdated": "20231214T091044",
         "locale": "en",
         "name": "HIV_AGG_DSH_DHIS2.40.2-en",
         "type": "DSH",
@@ -30200,7 +30192,7 @@
                 {
                     "dataDimensionItemType": "INDICATOR",
                     "indicator": {
-                        "id": "pUsmbaGXKOO"
+                        "id": "FI1sLa1hDb1"
                     }
                 }
             ],
@@ -30362,7 +30354,7 @@
                 {
                     "dataDimensionItemType": "INDICATOR",
                     "indicator": {
-                        "id": "oZxMaRJH0S7"
+                        "id": "wh5KJJPZ2w7"
                     }
                 }
             ],
@@ -31178,20 +31170,9 @@
             "yearlySeries": []
         },
         {
-            "aggregationType": "AVERAGE",
+            "aggregationType": "DEFAULT",
             "attributeValues": [],
-            "axes": [
-                {
-                    "index": 0,
-                    "targetLine": {
-                        "title": {
-                            "text": "95%"
-                        },
-                        "value": 95.0
-                    },
-                    "type": "RANGE"
-                }
-            ],
+            "axes": [],
             "categoryDimensions": [],
             "categoryOptionGroupSetDimensions": [],
             "colSubTotals": false,
@@ -31876,7 +31857,7 @@
                 "strategy": "BY_DATA_ITEM",
                 "style": "FILL"
             },
-            "name": "HIV - 01.14 - Cervical cancer screening (%)",
+            "name": "HIV - 01.14 - Cervical cancer screening",
             "noSpaceBetweenColumns": false,
             "numberType": "VALUE",
             "optionalAxes": [],
@@ -32175,7 +32156,7 @@
             "digitGroupSeparator": "SPACE",
             "displayDensity": "NORMAL",
             "filterDimensions": [
-                "ou"
+                "pe"
             ],
             "fixColumnHeaders": false,
             "fixRowHeaders": false,
@@ -32241,7 +32222,7 @@
                 "lastWeek": false,
                 "lastYear": false,
                 "monthsLastYear": false,
-                "monthsThisYear": true,
+                "monthsThisYear": false,
                 "quartersLastYear": false,
                 "quartersThisYear": false,
                 "thisBiWeek": false,
@@ -32252,7 +32233,7 @@
                 "thisQuarter": false,
                 "thisSixMonth": false,
                 "thisWeek": false,
-                "thisYear": false,
+                "thisYear": true,
                 "weeksThisYear": false,
                 "yesterday": false
             },
@@ -32263,7 +32244,7 @@
                 "reportingPeriod": false
             },
             "rowDimensions": [
-                "pe"
+                "ou"
             ],
             "rowSubTotals": false,
             "rowTotals": false,
@@ -32299,9 +32280,9 @@
             "subscribers": [],
             "topLimit": 0,
             "translations": [],
-            "type": "LINE",
-            "userOrganisationUnit": true,
-            "userOrganisationUnitChildren": false,
+            "type": "COLUMN",
+            "userOrganisationUnit": false,
+            "userOrganisationUnitChildren": true,
             "userOrganisationUnitGrandChildren": false,
             "yearlySeries": []
         },
@@ -32733,13 +32714,13 @@
                 {
                     "dataDimensionItemType": "INDICATOR",
                     "indicator": {
-                        "id": "oZxMaRJH0S7"
+                        "id": "wh5KJJPZ2w7"
                     }
                 },
                 {
                     "dataDimensionItemType": "INDICATOR",
                     "indicator": {
-                        "id": "pUsmbaGXKOO"
+                        "id": "FI1sLa1hDb1"
                     }
                 }
             ],
@@ -33725,20 +33706,9 @@
             "yearlySeries": []
         },
         {
-            "aggregationType": "AVERAGE",
+            "aggregationType": "DEFAULT",
             "attributeValues": [],
-            "axes": [
-                {
-                    "index": 0,
-                    "targetLine": {
-                        "title": {
-                            "text": "95%"
-                        },
-                        "value": 95.0
-                    },
-                    "type": "RANGE"
-                }
-            ],
+            "axes": [],
             "categoryDimensions": [],
             "categoryOptionGroupSetDimensions": [],
             "colSubTotals": false,
@@ -34570,7 +34540,7 @@
                 "strategy": "BY_DATA_ITEM",
                 "style": "FILL"
             },
-            "name": "HIV - 02.13 - Cervical cancer screening (%)",
+            "name": "HIV - 02.13 - Cervical cancer screening",
             "noSpaceBetweenColumns": false,
             "numberType": "VALUE",
             "optionalAxes": [],
@@ -34958,18 +34928,6 @@
                     "dataDimensionItemType": "INDICATOR",
                     "indicator": {
                         "id": "NAX0QkxkoX1"
-                    }
-                },
-                {
-                    "dataDimensionItemType": "INDICATOR",
-                    "indicator": {
-                        "id": "oZxMaRJH0S7"
-                    }
-                },
-                {
-                    "dataDimensionItemType": "INDICATOR",
-                    "indicator": {
-                        "id": "pUsmbaGXKOO"
                     }
                 }
             ],
