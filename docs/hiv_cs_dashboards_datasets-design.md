@@ -179,7 +179,7 @@ This dataset contains data elements for routine monthly analysis based on data a
 
 - New HIV cases by age, gender and key population category 
 - ART initiation 
-- PLHIV CD4 counting at ART initiation
+- PLHIV baseline CD4 count at diagnosis
 - PLHIV currently on ART
 - PLHIV virologically suppressed
 - PLHIV on ART for at least six months
