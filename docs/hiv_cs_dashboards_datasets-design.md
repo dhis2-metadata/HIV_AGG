@@ -6,7 +6,7 @@ Thematic dashboards for monitoring various aspects of HIV care and treatment pro
 
 Dashboards are served entirely by DHIS2 *indicators* as described in the next section. The following dashboards are available for routine analysis of HIV prevention activities.
 
-### HIV CS - 01. Case surveillance
+### [HIV CS - 01. Case surveillance](https://demos.dhis2.org/hmis/dhis-web-dashboard/index.html#/vHJr37SQiie)
 
 Volume of new HIV cases diagnosed during the current and previous year and the ones that have started ART
 
@@ -24,7 +24,7 @@ New HIV cases by Key Popualtion groups
 
 ![New HIV cases by key population groups](resources/images/key_population.png)
 
-### HIV CS - 02. ART initiation, retention and viral suppression
+### [HIV CS - 02. ART initiation, retention and viral suppression](https://demos.dhis2.org/hmis/dhis-web-dashboard/index.html#/wvMQ7MWdBiZ)
 
 PLHIV on ART by months of the current year and geographical distribution
 
@@ -54,7 +54,7 @@ Early viral load testing by period and organisation units
 
 ![Early viral load testing](resources/images/early_viral_load_testing.png)
 
-### HIV CS - 03. DSD ART
+### [HIV CS - 03. DSD ART](https://demos.dhis2.org/hmis/dhis-web-dashboard/index.html#/Qy558kJtPLY)
 
 Multi-monthly ART dispensing 
 
@@ -64,7 +64,7 @@ DSD ART models eligibility and enrollment
 
 ![DSD ART eligibility and enrollment](resources/images/dsd_eligibility_enrollment.png)
 
-### HIV CS - 04. HIV/TB
+### [HIV CS - 04. HIV/TB](https://demos.dhis2.org/hmis/dhis-web-dashboard/index.html#/hltk73PwPCr)
 
 TPT initiation and completion
 
@@ -74,13 +74,13 @@ TB screening and diagnostic cascade considered priority for high burden HIV/TB s
 
 ![TB screening and diagnostic cascade](resources/images/tb_screening_diagnostic_cascade.png)
 
-### HIV CS - 05. Epidemic Status
+### [HIV CS - 05. Epidemic Status](https://demos.dhis2.org/hmis/dhis-web-dashboard/index.html#/JzHjN7ckYQ0)
 
 Visualisation for the three pilars (3 95%) and their performance during the time
 
 ![Three 95 pillars](resources/images/hiv_pillars.png)
 
-### HIV CS - 06. STI
+### [HIV CS - 06. STI](https://demos.dhis2.org/hmis/dhis-web-dashboard/index.html#/VePGQCvhUBQ)
 
 Syphilis testing and treatment coverage over the time and organisation units
 
@@ -96,7 +96,7 @@ Presence of STI syndrome and repeat diagnosis of same STI syndrome within 12 mon
 
 ![STI syndrome](resources/images/sti_syndrome.png)
 
-### HIV CS - 07. Viral hepatitis
+### [HIV CS - 07. Viral hepatitis](https://demos.dhis2.org/hmis/dhis-web-dashboard/index.html#/vEE54GnKoyq)
 
 HBV test, positivity and treatment coverage by period and organisation units
 
@@ -106,7 +106,7 @@ HCV test, positivity, treatment coveragea and cured by period and organisation u
 
 ![HCV](resources/images/hcv.png)
 
-### HIV CS - 08. Cervical cancer
+### [HIV CS - 08. Cervical cancer](https://demos.dhis2.org/hmis/dhis-web-dashboard/index.html#/pqPcYIVrT5C)
 
 Cervical cancer screening coverage, outputs and treatment
 
