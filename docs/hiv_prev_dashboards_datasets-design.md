@@ -4,7 +4,7 @@
 
 Thematic dashboards for monitoring various aspects of HIV prevention programming have been developed based on the core indicators included in WHO’s 2022 [*Consolidated guidelines on person-centred HIV strategic information*](https://www.who.int/publications/i/item/9789240055315). Standard dashboard visualizations developed with WHO’s guidance can be rendered at national or sub-national levels depending on user configuration. Dashboards are served entirely by DHIS2 *indicators* as described in the next section. The following dashboards are available for routine analysis of HIV prevention activities.
 
-### HIV Prevention - 01. HTS: HIV testing services
+### [HIV Prevention - 01. HTS: HIV testing services](https://demos.dhis2.org/hmis/dhis-web-dashboard/index.html#/qpAgYKOLJam)
 
 Test volume, distribution & test positivity
 
@@ -18,7 +18,7 @@ Self testing, partner testing and self-testing kit distirbution
 
 ![HTS dashboard3](resources/images/hiv_prev_dash_0102.png)
 
-### HIV Prevention - 02. PrEP: Pre-exposure prophylaxis
+### [HIV Prevention - 02. PrEP: Pre-exposure prophylaxis](https://demos.dhis2.org/hmis/dhis-web-dashboard/index.html#/P7BbrjAEbJR)
 
 PrEP recipients & PrEP coverage
 
@@ -28,7 +28,7 @@ PrEP coverage (program vs population) and PrEP volume
 
 ![PrEP dashboard3](resources/images/hiv_prev_dash_0202.png)
 
-### HIV Prevention - 03. PEP: Post-exposure prophylaxis
+### [HIV Prevention - 03. PEP: Post-exposure prophylaxis](https://demos.dhis2.org/hmis/dhis-web-dashboard/index.html#/k3skTDcFr7a)
 
 PEP recipients by disaggregation and PEP completion
 
@@ -38,13 +38,13 @@ PEP completion and positive tests among PEP recipients
 
 ![PEP dashboard2](resources/images/hiv_prev_dash_0302.png)
 
-### HIV Prevention - 04. NSP: Needle/Syringe Program
+### [HIV Prevention - 04. NSP: Needle/Syringe Program](https://demos.dhis2.org/hmis/dhis-web-dashboard/index.html#/soeou9erH7L)
 
 NSP recipients, distribution, and coverage
 
 ![NSP dashboard1](resources/images/hiv_prev_dash_0401.png)
 
-### HIV Prevention - 05. OAMT (Opioid Agonist Maintenance Treatment)
+### [HIV Prevention - 05. OAMT (Opioid Agonist Maintenance Treatment)](https://demos.dhis2.org/hmis/dhis-web-dashboard/index.html#/twwvkb8XEmA)
 
 People on OAMT, coverage (program vs population), recipients on treatment for 6 months
 
@@ -54,7 +54,7 @@ Person years on OAMT, minimum duration & minimum dose
 
 ![OAMT dashboard2](resources/images/hiv_prev_dash_0502.png)
 
-### HIV Prevention - 06. VMMC: voluntary medical male circumcision
+### [HIV Prevention - 06. VMMC: voluntary medical male circumcision](https://demos.dhis2.org/hmis/dhis-web-dashboard/index.html#/cCse0DNSdQb)
 
 Clients undergoing VMMC & VMMC procedures performed
 
@@ -64,7 +64,7 @@ Adverse events reported, by severity and geographic distribution
 
 ![VMMC dashboard2](resources/images/hiv_prev_dash_0602.png)
 
-### HIV Prevention - 07. STI: sexually transmitted infections
+### [HIV Prevention - 07. STI: sexually transmitted infections](https://demos.dhis2.org/hmis/dhis-web-dashboard/index.html#/Fr0LGUdXeBe)
 
 Syphilis and gonorrhoea testing, positivity and treatment
 
@@ -82,7 +82,7 @@ Geographical distribution of STI syndromes and repeat diagnoses over time
 
 ![STI dashboard4](resources/images/hiv_prev_dash_0704.png)
 
-### HIV Prevention - 08. Viral Hepatitis
+### [HIV Prevention - 08. Viral Hepatitis](https://demos.dhis2.org/hmis/dhis-web-dashboard/index.html#/PSCxv5diP7Q)
 
 HBV and HBsAG test coverage and positivity
 
@@ -92,7 +92,7 @@ HCV test coverage and posivitiy
 
 ![VH dashboard2](resources/images/hiv_prev_dash_0802.png)
 
-### HIV Prevention - 09. Health Facility
+### [HIV Prevention - 09. Health Facility](https://demos.dhis2.org/hmis/dhis-web-dashboard/index.html#/zX9dynexKmT)
 
 Visualizations in this dashboard combine data visualizations from all types of prevention activities. Visualizations are optimized for service delivery site level staff, focusing primarily on numerators or indicators where facility-level denominators are available.
 
@@ -100,7 +100,7 @@ Visualizations in this dashboard combine data visualizations from all types of p
 
 ![HF Prevention dashboard2](resources/images/hiv_prev_dash_0902.png)
 
-### HIV Prevention - 10. District
+### [HIV Prevention - 10. District](https://demos.dhis2.org/hmis/dhis-web-dashboard/index.html#/XJF6HzJOmXe)
 
 Visualizations in this dashboard are optimized for district level programme staff, combining data visualizations from all types of prevention activities. District dashboards allow district staff to compare metrics across service delivery sites.
 
