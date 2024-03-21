@@ -1,4 +1,4 @@
-# HIV Logistics Design{ #hiv-agg-stk-design }
+# HIV Logistics Design { #hiv-agg-stk-design }
 
 The logistics metadata is designed to be harmonized conceptually across different health programmes. To ease the adoption of these packages in countries, we have included the program-specific metadata into existing DHIS2 metadata for HIV programmes. The aggregate HMIS package for HIV therefore includes:
 
