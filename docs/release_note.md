@@ -1,5 +1,9 @@
 # Release Note { #hiv-agg-release-note }
 
+## 2.0.1
+
+Minor changes for the inclusion of the HIV stock dashboard and predictors
+
 ## 2.0.0
 
 This is a major new release of the HIV metadata and system design for integrating HIV data into national HMIS for analysis. 
