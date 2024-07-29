@@ -141,6 +141,10 @@ Refer to the [DHIS2 Documentation](https://docs.dhis2.org/) for more information
 
 The data sets must be assigned to organisation units within existing hierarchy in order to be accessible via capture app.
 
+### Visualizations using Organisation Unit Group
+
+There are visualizations, event reports, report tables and maps that have a reference to a specific organisation unit group called 'HMIS: All Health Facilities' with the UID 'zk3lBJfnL6b'. You must assign the organisation units that are health facilities within your own hierarchy into it in order to be able to see the correct visualizations.
+
 ### Indicator mapping
 
 When implementing the *dashboard package* only, the indicator numerators and denominators have to be configured using the metadata objects in the existing instance. Configuration information is available in the documentation and the description of numerators and denominators in the metadata file.
