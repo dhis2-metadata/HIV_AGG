@@ -1,5 +1,10 @@
 # Release Note { #hiv-agg-release-note }
 
+## 2.0.2
+
+A new version of the HIV Case Surveillance module (v2.0.2) has been released with some minor changes.
+- Modification of legendSet (UID=aviopx5x4wQ, name=HIV default (%))
+
 ## 2.0.1
 
 Minor changes for the inclusion of the HIV stock dashboard and predictors
