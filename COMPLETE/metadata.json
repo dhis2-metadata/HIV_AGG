@@ -43921,7 +43921,7 @@
                     "favorite": false,
                     "favorites": [],
                     "id": "iCBaHMc9w9O",
-                    "name": "90% to 110%",
+                    "name": "90% to 100%",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -51717,17 +51717,17 @@
         }
     ],
     "package": {
-        "DHIS2Build": "b5923db",
-        "DHIS2Version": "2.40.3.1",
+        "DHIS2Build": "a1aa81b",
+        "DHIS2Version": "2.40.4.1",
         "code": "HIV_AGG",
         "description": "HIV HMIS",
         "healthAreaCode": "HIV",
         "healthAreaName": "HIV",
-        "lastUpdated": "20240606T105313",
+        "lastUpdated": "20240829T122618",
         "locale": "en",
-        "name": "HIV_AGG_AGG_DHIS2.40.3.1-en",
+        "name": "HIV_AGG_AGG_DHIS2.40.4.1-en",
         "type": "AGG",
-        "version": ""
+        "version": "2.0.2"
     },
     "predictorGroups": [
         {
