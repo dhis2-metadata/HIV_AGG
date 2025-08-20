@@ -9,8 +9,6 @@
 - [Version 2.0.0](#hiv-agg-design)
 - [HIV Case Surveillance Dashboards and Datasets](#hiv-cs-dashboards-datasets)
 - [HIV Prevention Dashboards and Datasets](#hiv-prev-dashboards-datasets)
-- [LMIS](#lmis-agg-design)
-- [HIV Logistics](#hiv-agg-stk-design)
 
 ## Installation
 
