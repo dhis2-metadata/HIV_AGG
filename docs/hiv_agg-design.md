@@ -32,7 +32,6 @@ The following datasets describe the frequency and type of data to be integrated 
 | HIV surveillance (yearly) | Annual | HIV case data required for annual analysis of data reported from Tracker or other case-based surveillance systems. A separate annual dataset is provided to avoid double-counting that can occur when aggregating monthly reported data. |
 | HIV prevention (monthly) | Monthly | HIV prevention data required for routine monthly analysis. This data set can receive Tracker data from an individual level system or can be used for aggregated paper-based reporting from prevention sites (with adaptation/simplification of disaggregation). |
 | HIV prevention (annual) | Annual | HIV prevention data required for annual analysis of data reported from Tracker or other case-based surveillance systems. A separate annual dataset is provided to avoid double-counting that can occur when aggregating monthly reported data. |
-| HIV stock report | Monthly | Facility stock data for essential commodities that can be reported directly from facilities (stock-on-hand, stock distributed, stock received, etc). |
 | HIV Health Facility Profile | Annual | Dataset for incorporating data from the Health Facility Profile on availability of HIV testing services and ART treatment. |
 | HIV surveillance population estimates | Annual | Dataset for recording estimates of PLHIV (such as Spectrum estimates), uninfected HIV population and HIV-positive women who delivered babies for use in denominators for key HIV indicators. |
 | HIV prevention population estimates | Annual | Dataset for recording estimates of people eligible for PrEP, opioid dependents, people who inject drugs and uninfected population for use in denominators of key HIV indicators. |
@@ -64,10 +63,6 @@ The district HIV dashboard provides sub-national programme managers and district
 **Facility availability of HIV testing services**
 
 ![Availability of HIV services](resources/images/hiv_hmis_dash_0101.png)
-
-**Facility stock-outs of HIV tests & ARTs**
-
-![Facility stock](resources/images/hiv_hmis_dash_0102.png)
 
 **New HIV diagnoses, linkage to treatment and PLHIV currently on treatment by facility**
 
