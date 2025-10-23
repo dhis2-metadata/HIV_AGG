@@ -1,5 +1,11 @@
 # Release Note { #hiv-agg-release-note }
 
+## 2.1.0
+Updates on self testing section to allign with the most updated WHO guideliens and additions of visualisations to:
+- HIV prevention - 01. HTS
+- HIV prevention - 02. PrEP
+- HIV prevention - 03. PEP
+
 ## 2.0.2
 
 A new version of the HIV Case Surveillance module (v2.0.2) has been released with some minor changes.
